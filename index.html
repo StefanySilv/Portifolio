@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Portifolio- alura</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <header class="cabecalho container">
+           <h1 class="cabecalho__titulo">Stefany</h1>
+            <nav class="container">
+                <ul class="menu">
+                    <li class="item"><a class="link" href="#">Sobre mim</a></li>
+                    <Li class="item"><a class="link" href="#skills">Skills</a></Li>
+                    <li class="item"><a class="link" href="#hobbies">Hobbies</a></li>
+                    <li class="item"><a class="link" href="#">Formação</a></li>
+                    <li class="item"><a class="link" href="#">Projetos</a></li>
+                    <li class="item"><a class="link" href="#contato"> Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="intro container" >
+            <div class="intro__caixa">
+                <h2 class="intro__titulo">Olá, meu nome é Stefany e construo páginas web</h2>
+                <p class ="intro__texto">Atualmente estou participando no projeto Oracle ONE na Alura.</p>
+                <nav class="barra">
+                    <ul class="barra__lista">
+                        <li class="barra__item"><a class="barra__link" href="#">Github</a></li>
+                        <li class="barra__item"><a class="barra__link" href="#">Linkedin</a></li>
+                        <li class="barra__item"><a class="barra__link" href="#">Instagram</a></li>
+                        <li class="barra__item"><a class="barra__link" href="#">Curriculo</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="intro__imagem">
+                <img class="perfil" src="./imagens/imagem.png" alt="foto de perfil">
+            </div>
+
+        </section>
+        <section class="sobre container">
+            <h2 class="sobre__titulo">Sobre mim</h2>
+            <p class="sobre__texto">Loremm ipsum dolor sit amet. Quo quidem iste est officia quam et facilis molestiae? Et itaque voluptatum est exercitationem accusantium aut eius molestias ut alias animi aut corporis sint sit aspernatur vero et voluptas molestiae. Eum quasi blanditiis ad sapiente ipsum in recusandae voluptatem ea maiores omnis eos debitis voluptatem est assumenda iste qui dolore nostrum. Laboriosam facere eum explicabo asperiores aut amet dolorem id similique voluptas.</p>
+        </section>
+        <section class="skills">
+            <h2 class="skills__titulo titulo-base">Skills</h2>
+
+            <ul class="skills__lista lista-base">
+
+                <li class="skills__item item-base" id="skills">
+                    <img class="skilss__imagem" src="./imagens/html.png" alt="simbolo do html">
+                    <p class="skills__texto texto-base">Html 5</p>
+                </li>
+
+                <li class="skills__item item-base">
+                    <img class="skilss__imagem" src="./imagens/css.png" alt="simbolo css">
+                    <p class="skills__texto texto-base" >CSS</p>
+                </li>
+
+                <li class="skills__item item-base">
+                    <img class="skilss__imagem" src="./imagens/js.png" alt="simbolo javascript">
+                    <p class="skills__texto texto-base">Javascript</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="hobbies container" id="hobbies">
+            <h2 class="hobbies__titulo titulo-base">Hobbies</h2>
+
+            <ul class="hobbies__lista lista-base">
+
+                <li class="hobbies__item item-base">
+                    <img class="hobbies__imagem" src="./imagens/camera.png" alt="simbolo do html">
+                    <p class="hobbies__texto texto-base">Tirar fotos</p>
+                </li>
+
+                <li class="hobbies__item item-base">
+                    <img class="hobbies__imagem" src="./imagens/tv.png" alt="simbolo css">
+                    <p class="hobbies__texto texto-base" >Assistir series</p>
+                </li>
+
+                <li class="hobbies__item item-base">
+                    <img class="hobbies__imagem" src="./imagens/musica.png" alt="simbolo javascript">
+                    <p class="hobbies__texto texto-base">Ouvir música</p>
+                </li>
+
+                <li class="hobbies__item item-base">
+                    <img class="hobbies__imagem" src="./imagens/book.png" alt="livro">
+                    <p class="hobbies__texto texto-base">Ler livros</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contato container" id="contato">
+            <div class="contatos">
+                <div class="contato__imagem">
+                    <img src="./imagens/contato.png" alt="telefone" class="contato__img">
+                </div>
+                <div class="contato__texto">
+                    <h2 class="contato__titulo">Contato</h2>
+                    <p class="contato__subtitulo">Quer entrar em contato comigo?</p>
+                    <p class="contato__subtitulo">Preencha o formulário abaixo e entrarei em contato o mais rápido possível</p>
+    
+                    <form action="" class="form">
+                        <input type="text" class="contato__input" placeholder="Nome" required>
+    
+                        <input type="email" class="contato__input" placeholder="Email" required>
+    
+                        <input type="text" class="contato__input" placeholder="Assunto" required>
+    
+                        <textarea  class="contato__mensagem" rows="5" cols="40"></textarea>
+    
+                        <button class="contato__botao" type="submit">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <p>Desenvolvido por Stefany Silva</p>
+            <p>2022</p>
+        </footer>
+    </body>
+</html>
+
