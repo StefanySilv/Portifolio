@@ -1,0 +1,58 @@
+.contato {
+    background-color: #eaf2fd;
+}
+
+.contato .contatos {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato .contato__img {
+    display: block;
+    height: 570px;
+    width: 464px;
+}
+
+.contato .contato__texto {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 0 0 0 1rem;
+}
+
+.contato__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.contato__subtitulo {
+    font-weight: 500;
+    margin: 0;
+}
+
+.contato__input {
+    border: transparent;
+    height: 55px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contato__mensagem {
+    border: transparent;
+    border-radius: 4px;
+    margin: 10px 0;
+    height: 96px;
+    width: 100%;
+}
+
+.contato__botao {
+    background-color: #2a7ae4;
+    border: transparent;
+    color: #fff;
+    font-weight: 400;
+    margin: 25px 0;
+    padding: 10px;
+}

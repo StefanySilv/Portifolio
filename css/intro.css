@@ -1,0 +1,34 @@
+.intro{
+    display: flex;
+    align-items: center;
+    padding: 1rem 100px 0 100px; 
+    justify-content: space-between;  
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 368px;
+    height: 368px;
+}
+
+.intro__titulo {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61px;
+    margin: 24px 0;    
+}
+
+.intro__lista{
+    display: flex;
+}
+.intro__item {
+    padding: 1rem;
+}
+.intro__item::after {
+    content:"🡭";
+}
+.intro__link {
+    text-decoration: none;
+    color: #464646;
+    font-weight: 600;
+}
