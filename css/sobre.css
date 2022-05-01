@@ -1,0 +1,16 @@
+.sobre {
+    background-color: #eaf2fd;
+    height: 383px;
+}
+
+.sobre__titulo{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-top: 2rem;
+}
+
+.sobre__texto {
+    width: 751px;
+    margin: 16px 0;
+}

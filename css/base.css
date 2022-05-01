@@ -4,6 +4,9 @@ body {
     color: #464646;
     line-height: 20px;
 }
+.container {
+    padding: 1rem 100px 0 100px; 
+}
 
 .titulo-base {
     font-size: 32px;
