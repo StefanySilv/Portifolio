@@ -1,12 +1,16 @@
 .formacao {
     background-color: #eaf2fd;
     padding-top: 3rem;
+    margin-bottom: 2rem;
 }
 .formacao__titulo {
     padding: 2rem;
 }
 .formacao__texto {
     font-weight: 700;
+}
+.formacao__subtexto {
+    margin-bottom: 2rem;
 }
 
 .formacoes {
