@@ -1,0 +1,15 @@
+.formacao {
+    background-color: #eaf2fd;
+    padding-top: 3rem;
+}
+.formacao__titulo {
+    padding: 2rem;
+}
+.formacao__texto {
+    font-weight: 700;
+}
+
+.formacoes {
+    display: flex;
+    justify-content: center;
+}
