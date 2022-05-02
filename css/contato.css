@@ -55,4 +55,10 @@
     font-weight: 400;
     margin: 25px 0;
     padding: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.contato__botao:hover {
+    background:#0073e6 ;
+    cursor: pointer;
 }

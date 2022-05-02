@@ -18,10 +18,11 @@
     font-size: 16px;
 }
 
-.item:hover {
-    text-decoration: underline;
-}
 .link {
     text-decoration: none;
     color: #464646;
+}
+
+.link:hover {
+    border-bottom: 2px solid #2a7ae4;
 }

@@ -30,5 +30,9 @@
 .intro__link {
     text-decoration: none;
     color: #464646;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.intro__link:hover{
+    font-weight: 700;
 }
